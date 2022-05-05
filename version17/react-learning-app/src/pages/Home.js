@@ -14,7 +14,8 @@ class Home extends React.Component {
     // this.setState({ uname: uname === "Sapna" ? "Tarun" : "Sapna" });
     // this.setState({ count: count + 2 });
     // this.setState({ count: count + 2 });
-    numbers.splice(2, 1, 9, 8, 7);
+    numbers.splice(2, 1, 6, 5);
+    numbers[2] = 9;
     // this.setState({ count: count++ });
     // this.setState((state) => {
     //   console.log("Insider state:", state.count);
