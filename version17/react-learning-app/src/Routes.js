@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Timer from "./pages/Timer";
 import StockContainer from "./pages/StockContainer";
+import ContextAPIContainer from "./pages/ContextAPIs/ContextAPIContainer";
 
 const routes = [
   { path: "/", component: Home },
   { path: "/home", component: Home },
   { path: "/timer", component: Timer },
   { path: "/stock", component: StockContainer },
+  { path: "/context-api", component: ContextAPIContainer },
 ];
 
 export default function Routes() {
