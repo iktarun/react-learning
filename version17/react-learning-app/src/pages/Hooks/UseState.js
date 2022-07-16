@@ -5,7 +5,7 @@ function UseState() {
   const [count, setCount] = useState(0);
   const [count1, setCount1] = useState(0);
 
-  // Similar to componentDidMount and componentDidUpdate:
+  // Similar to componentDidMount and componentDidUpdate and ComponentWillUnmount:
   useEffect(() => {
     console.log("hello");
     // Update the document title using the browser API
