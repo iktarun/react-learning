@@ -31,7 +31,7 @@ function UseCallback() {
   };
   return (
     <div>
-      <MainHeader />
+      {/* <MainHeader /> */}
       <p>You clicked {count} times</p>
 
       <button onClick={updateCount}>Click me to increment</button>

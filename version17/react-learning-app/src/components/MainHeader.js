@@ -9,6 +9,7 @@ const routes = [
   { path: "/use-state-hook" },
   { path: "/use-memo-hook" },
   { path: "/use-callback-hook" },
+  { path: "/react-query" },
 ];
 function MainHeader() {
   return (

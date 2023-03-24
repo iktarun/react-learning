@@ -23,7 +23,7 @@ function UseMemo() {
   console.log(searchText);
   return (
     <div>
-      <MainHeader />
+      {/* <MainHeader /> */}
       <input type="text" onChange={handleTextSearch} />
       {Memozied}
       {/* <Memozied searchText={searchText} /> */}

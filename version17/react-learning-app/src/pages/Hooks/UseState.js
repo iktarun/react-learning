@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import MainHeader from "../../components/MainHeader";
 
 function UseState() {
   const [count, setCount] = useState(0);
@@ -25,7 +24,7 @@ function UseState() {
 
   return (
     <div>
-      <MainHeader />
+      {/* <MainHeader /> */}
       <p>You clicked {count} times</p>
 
       <button onClick={updateCount}>Click me to increment</button>

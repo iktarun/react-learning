@@ -7,6 +7,8 @@ import ContextAPIContainer from "./pages/ContextAPIs/ContextAPIContainer";
 import UseStateHook from "./pages/Hooks/UseState";
 import UseMemo from "./pages/Hooks/UseMemo";
 import UseCallback from "./pages/Hooks/UseCallback";
+import MainHeader from "./components/MainHeader";
+import ReactQueryLibrary from "./pages/ReactQuery";
 
 const routes = [
   { path: "/", component: Home },
@@ -17,12 +19,14 @@ const routes = [
   { path: "/use-state-hook", component: UseStateHook },
   { path: "/use-memo-hook", component: UseMemo },
   { path: "/use-callback-hook", component: UseCallback },
+  { path: "/react-query", component: ReactQueryLibrary },
 ];
 
 export default function Routes() {
   return (
     <Router>
       <div>
+        <MainHeader />
         <Switch>
           {routes.map((route) => (
             <Route
